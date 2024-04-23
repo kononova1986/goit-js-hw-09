@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+ul.gallery{
+    margin: 0;
+    padding: 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style-type: none;
+}
+.gallery-image{
+    width: 360px;
+    height: 200px;
+}
