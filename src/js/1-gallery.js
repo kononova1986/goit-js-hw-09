@@ -83,7 +83,7 @@ const animations = images.map(image => {
 galleryItem.innerHTML = animations; 
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionPosition: 'top',
+  captionPosition: 'button',
   captionDelay: 250,
     captionsData: 'alt',
     caption: true,
